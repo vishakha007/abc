@@ -3,7 +3,7 @@ package abc;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Stack;
-
+/* Algorithm to check if given Binary is Balanced BinaryTree*/
 public class NodeDepthPair {
 
     BinaryTreeNode node;
