@@ -17,7 +17,7 @@ public class FileDemo {
 		
 		String str1 = "Lets not write and read from a file !!!!";
 		try {	
-			fw = new FileWriter("/Users/pravin/Documents/Vishakha/test.txt");
+			fw = new FileWriter("/Users/Documents/test.txt");
 		}catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -27,7 +27,7 @@ public class FileDemo {
 		fw.append(str1);
 		fw.close();
 		try {
-			 fr = new FileReader("/Users/pravin/Documents/Vishakha/test.txt");
+			 fr = new FileReader("/Users/Documents/test.txt");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
