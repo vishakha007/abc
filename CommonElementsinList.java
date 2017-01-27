@@ -10,7 +10,7 @@ public class CommonElementsinList {
 	List <Integer> Common(List <Integer>l1,List<Integer>l2){
 		List <Integer> common=new ArrayList<Integer>();
 		for(Integer i:l1 ){
-			if(l1.contains(l2)){
+			if(l2.contains(i)){
 				System.out.println("Common elements "+i);
 				common.add(i);
 			}
