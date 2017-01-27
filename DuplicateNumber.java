@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DuplicateNumber {
-
+/* sum(i)1 to n= n*(n+1)/2*/
    public int findDuplicateNumber(List<Integer> numbers){
         
        int highestNumber = numbers.size() - 1;
