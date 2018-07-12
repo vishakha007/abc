@@ -4,7 +4,7 @@ public class ListCycle {
 	public boolean hasCycle(ListNode l1){
 		ListNode slow=l1;
 		ListNode fast=l1;
-		while(slow.nex !=null &&fast.next.next!=null){
+		while(slow.next !=null &&fast.next.next!=null){
 			slow=slow.next;
 			fast=fast.next.next;
 			if (slow==fast)
